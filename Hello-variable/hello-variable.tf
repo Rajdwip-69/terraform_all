@@ -1,6 +1,14 @@
 // Take User Input.............
-variable username{}
+variable username{
+     default = "Hero Alam"
+}
+variable ages{
+   default = 34
+}
  // block Start
 output printname{
-     value = "Hello,${var.username}" // Print value
+     value = "Your name is : ${var.username}" // Print value
+}
+output age{
+     value = "Your age is : ${var.ages}"
 }
