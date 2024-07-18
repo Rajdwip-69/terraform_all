@@ -1,0 +1,4 @@
+# variable "ages" {
+#     type = number
+  
+# }
